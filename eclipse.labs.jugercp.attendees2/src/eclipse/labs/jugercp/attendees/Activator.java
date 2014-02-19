@@ -23,6 +23,7 @@ public class Activator extends AbstractUIPlugin {
 	
 	private int count = 0;
 	
+	
 	/**
 	 * The constructor
 	 */
@@ -39,6 +40,7 @@ public class Activator extends AbstractUIPlugin {
 		plugin = null;
 		refAttendeesManager.removeAllAttendees();
 		super.stop(context);
+		System.out.println(+count);
 	}
 
 	public IAttendeesManager getAttendeesManager() {

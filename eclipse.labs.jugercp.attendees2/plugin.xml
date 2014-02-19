@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="eclipse.labs.jugercp.attendees.category"
+            class="eclipse.labs.jugercp.attendees.views.AttendeeViewPart"
+            id="eclipse.labs.jugercp.attendees.attendeeid"
+            name="Edition Participant"
+            restorable="true">
+      </view>
+      <view
+            category="eclipse.labs.jugercp.attendees.category"
+            class="eclipse.labs.jugercp.attendees.views.AttendeesViewPart"
+            id="eclipse.labs.jugercp.attendees.listattendeesid"
+            name="Liste Participants"
+            restorable="true">
+      </view>
+      <category
+            id="eclipse.labs.jugercp.attendees.category"
+            name="jugercp">
+      </category>
+   </extension>
+</plugin>
